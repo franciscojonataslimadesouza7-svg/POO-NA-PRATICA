@@ -30,13 +30,6 @@ public class ContaCorrente extends ContaBancaria{
             return;
         }
 
-        if (valor > getSaldo()){
-            double restante = valor - getSaldo();
-            setSaldo(0);
-            chequeEspecial -= restante;
-        }else {
-            setSaldo(getSaldo() - valor);
-        }
 
         System.out.println("Saque de R$: " + valor + " realizado com sucesso");
         System.out.println("saldo Atual R$: " + getSaldo() + " saldo do cheque especial R$: " + chequeEspecial);
