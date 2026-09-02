@@ -17,30 +17,6 @@ public class ContaBancaria{
         this.saldo = saldo;
     }
 
-    public Cliente getCliente() {
-        return cliente;
-    }
-
-    public void setCliente(Cliente cliente) {
-        this.cliente = cliente;
-    }
-
-    public String getAgencia() {
-        return agencia;
-    }
-
-    public void setAgencia(String agencia){
-        this.agencia = agencia;
-    }
-
-    public String getConta(){
-        return conta;
-    }
-
-    public void setConta(String conta){
-        this.conta = conta;
-
-    }
 
     public double getSaldo() {
         return saldo;
