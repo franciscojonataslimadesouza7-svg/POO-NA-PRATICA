@@ -2,7 +2,6 @@ package ExercicioPOOQ2;
 
 import java.util.Scanner;
 
-import ExercicioPOOQ2.Termostato;
 
 public class App {
     public static void main(String[] args) {

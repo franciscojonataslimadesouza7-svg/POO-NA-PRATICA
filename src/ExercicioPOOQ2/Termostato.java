@@ -37,37 +37,6 @@ public class Termostato {
 
     }
 
-    public double getTemperaturaAtual() {
-        return TemperaturaAtual;
-    }
-
-    public void setTemperaturaAtual(double temperaturaAtual) {
-        TemperaturaAtual = temperaturaAtual;
-    }
-
-    public double getTemperaturaDesejada() {
-        return TemperaturaDesejada;
-    }
-
-    public void setTemperaturaDesejada(double temperaturaDesejada) {
-        TemperaturaDesejada = temperaturaDesejada;
-    }
-
-    public String getModo() {
-        return modo;
-    }
-
-    public void setModo(String modo) {
-        this.modo = modo;
-    }
-
-    @Override
-    public String toString() {
-        return
-                "\n TemperaturaAtual: " + TemperaturaAtual +
-                "\n TemperaturaDesejada: " + TemperaturaDesejada +
-                "\n modo: " + modo;
-    }
 
     public void executarCiclo(){
         System.out.println("Condição atual: Temperatura Atual: " + TemperaturaAtual + "\n" + " A temperatura Que Pra Ser: " + TemperaturaDesejada + "\n" + " Modo: " + modo);
