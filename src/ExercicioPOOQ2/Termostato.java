@@ -24,11 +24,11 @@ public class Termostato {
         this.TemperaturaDesejada = temp;
     }
 
-    public void alterarModo(String Novomodo){
-        if (Novomodo.equalsIgnoreCase("Resfriar") ||
-                Novomodo.equalsIgnoreCase("Aquecer") ||
-                Novomodo.equalsIgnoreCase("Desligar")){
-            this.modo = Novomodo;
+    public void alterarModo(String novomodo){
+        if (novomodo.equalsIgnoreCase("Resfriar") ||
+                novomodo.equalsIgnoreCase("Aquecer") ||
+                novomodo.equalsIgnoreCase("Desligar")){
+            this.modo = novomodo;
             System.out.println("modo alterado " + this.modo);
         }else{
             System.out.println("modo invalido, os validos sao, Resfriar, Aquecer E Desligar");
