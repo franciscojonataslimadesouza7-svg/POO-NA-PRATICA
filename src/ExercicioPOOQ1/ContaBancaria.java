@@ -40,6 +40,7 @@ public class ContaBancaria{
             System.out.println("valor do deposito invalido");
             return;
         }
+        System.out.println("Saldo Atual Antes Do Deposito: " + getSaldo());
         this.saldo += deposito;
         System.out.println("Deposito De R$: " + deposito + " Realizado com sucesso");
         System.out.println("Saldo Atual R$: " + this.saldo);

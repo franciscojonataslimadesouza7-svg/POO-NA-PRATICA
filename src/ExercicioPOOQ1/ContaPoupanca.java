@@ -22,10 +22,13 @@ public class ContaPoupanca extends ContaBancaria{
     }
 
     public void aplicarRendimento(){
+        System.out.println("Saldo Antes Do Rendimento Aplicado R$: " + getSaldo());
         double rendimento = getSaldo() * taxaRendimento;
         setSaldo(getSaldo() + rendimento);
         System.out.println("Rendimento Aplicado R$: " + rendimento);
         System.out.println("Saldo Atual R$: " + getSaldo());
+
+
     }
 
 

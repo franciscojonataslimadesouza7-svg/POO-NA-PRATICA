@@ -5,6 +5,7 @@ public class App {
         LampadaIntelignte l = new LampadaIntelignte();
         System.out.println("\n---Funcionamento Lampada---\n");
         l.ligar();
+
         l.ajustarIntesidade(50);
         l.mudarCor("Azul");
     }

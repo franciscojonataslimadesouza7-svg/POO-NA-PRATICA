@@ -16,18 +16,34 @@ public class App {
         System.out.println(ContPp);
         System.out.println("\n");
 
-        System.out.println("---Conta Corrente---");
+        System.out.println("\n------------------------Conta Corrente Operações------------------------\n");
+
+        System.out.println("\n---Conta Corrente Operação depositar---\n");
         ContCr.depositar(500);
-        ContCr.sacar(1500);
+
+
+
+        System.out.println("\n---Conta Corrente Operação sacar---\n");
+        ContCr.sacar(100);
+
+
 
 
         System.out.println("\n");
 
-        System.out.println("---Conta Poupança---");
+        System.out.println("------------------------Conta Poupança Operações------------------------");
 
+        System.out.println("\n------Conta Poupança Operação Depositar------\n");
+        ContPp.getSaldo();
         ContPp.depositar(500.00);
+
+        System.out.println("\n------Conta Poupança Aplicação De Rendimento------\n");
+        ContPp.getSaldo();
         ContPp.aplicarRendimento();
+
+        System.out.println("\n------Conta Poupança Operação sacar------\n");
         ContPp.sacar(600.00);
+        ContPp.getSaldo();
 
 
 
