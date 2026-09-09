@@ -1,4 +1,4 @@
-package Excecoes;
+package Excecoes.ExemploArray;
 
 public class ExemploArray {
     public static void main(String[] args) {

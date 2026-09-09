@@ -1,10 +1,10 @@
-package Excecoes;
+package ExerciciosExcecoes.Q1;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class App {
-    public static void main(String[] args) {
+    static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
         int num1;
@@ -41,9 +41,13 @@ public class App {
                 System.out.println("digite um numero inteiro positivo");
                 sc.next();
             } catch (ArithmeticException e) {
-                System.out.println("nao e possivel fazer divisao por zero");;
+                System.out.println("nao e possivel fazer divisao por zero");
             }
-            }
+        }
 
     }
-}
+    }
+
+
+
+
