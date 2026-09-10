@@ -23,6 +23,8 @@ public class Gref {
             System.out.println("\n Mensagem Erro");
             System.out.println("o texto nao e um numero valido ");
             System.out.println(e.getMessage());
-        }
+        }finally{
+             System.out.println("Arquivo fechado..........");
+         }
     }
 }
