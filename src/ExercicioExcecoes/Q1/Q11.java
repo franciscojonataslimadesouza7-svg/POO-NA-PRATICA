@@ -24,6 +24,6 @@ public class Q11 {
         nomes.add(nome2);
         nomes.add(nome3);
         nomes.add(nome4);
-        nomes.add(nome);
+        nomes.add(nome5);
     }
 }

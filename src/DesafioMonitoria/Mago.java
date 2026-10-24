@@ -18,7 +18,7 @@ public class Mago implements Personagem{
 
     @Override
     public void falaPersonagem() {
-        System.out.print("Qual Seu Nome Mago: ");
+        System.out.print("Qual Seu Nome Isdruchilo Mago: ");
         this.nome = sc.nextLine();
 
         System.out.println("Sou Um Mago das Trevas Muito Poderoso me Chamo " + this.nome);

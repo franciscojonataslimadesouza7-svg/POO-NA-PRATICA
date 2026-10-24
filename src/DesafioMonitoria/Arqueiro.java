@@ -16,7 +16,7 @@ public class Arqueiro  implements Personagem{
 
     @Override
     public void falaPersonagem() {
-        System.out.print("Qual Seu Nome Arqueiro: ");
+        System.out.print("Qual Seu Nome Isdruchilo Arqueiro : ");
         this.nome = sc.nextLine();
 
         System.out.println("Sou Um Arqueiro Com a Mira Mais sertera do Reino me Chamo " + this.nome);

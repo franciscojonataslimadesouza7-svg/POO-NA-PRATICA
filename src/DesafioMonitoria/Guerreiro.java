@@ -17,7 +17,7 @@ public class Guerreiro implements Personagem,Inimigo{
 
     @Override
     public void falaPersonagem() {
-        System.out.print("Qual Seu Nome Guerreiro: ");
+        System.out.print("Qual Seu Nome Isdruchilo Guerreiro: ");
         this.nome = sc.nextLine();
 
         System.out.println("Sou o Guerreiro MAis Forte e Habilidoso do Reino me Chamo " + this.nome);
